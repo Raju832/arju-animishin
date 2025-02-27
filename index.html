@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Style Typing</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="editor-container">
+        <div class="title-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="file-name">index.html</span>
+        </div>
+        <div class="code-editor">
+            <pre id="codeOutput"></pre>
+        </div>
+    </div>
+
+    <textarea id="codeInput" placeholder="এখানে কোড লিখুন..."></textarea>
+    <button onclick="startTyping()">Start Typing</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
